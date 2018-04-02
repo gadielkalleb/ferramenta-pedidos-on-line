@@ -1,0 +1,30 @@
+/* ajusta o menu lateral com o conteudo da pagina */
+
+header,
+main,
+footer {
+    padding-left: 300px;
+}
+
+@media only screen and (max-width: 992px) {
+    header,
+    main,
+    footer {
+        padding-left: 0;
+    }
+}
+
+/* ajusta o tamanho do logo */
+
+a img#img-logo {
+    width: 245px;
+}
+
+/* cores formulario de dados do usuario */
+div.row ul li div.dadosUsuario {
+    background-color: #600E03 !important;
+}
+
+div.row ul li div.collapsible-body div.card {
+    background-color: #012641;
+}

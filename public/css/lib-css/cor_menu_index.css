@@ -1,0 +1,8 @@
+nav#menu-frt {
+    margin: 15px 0;
+}
+
+nav#menu-frt ul li>a {
+    color: white;
+    font-style: normal;
+}
