@@ -5,23 +5,18 @@ import {
     Link
 } from 'react-router-dom'
 
-import MenuTop from './MenuTop'
-import MenuLateral from './MenuLateral'
 import BemVindo from './BemVindo'
+import AluminioSemRebaixo from './AluminioSemRebaixo'
 
 class App extends Component {
     render () {
         return (
             <div className="corpo-site">
-                <header>
-                    <MenuTop/>
-                    <MenuLateral/>
-                </header>
-
                 <Router>
                     <main>
                         <form>
-                            <BemVindo/>
+                            <Route path='/' exact component={ BemVindo } />
+                            <Route path='/aluminiosemrebaixo' component={ AluminioSemRebaixo } />
                         </form>
                     </main>
                 </Router>
