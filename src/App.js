@@ -2,25 +2,33 @@ import React, { Component } from 'react'
 import { 
     BrowserRouter as Router,
     Route,
-    Link
 } from 'react-router-dom'
 
+import MenuTop from './MenuTop'
+import MenuLateral from './MenuLateral'
 import BemVindo from './BemVindo'
-import AluminioSemRebaixo from './AluminioSemRebaixo'
+import AluminiumSemRebaixo from './AluminiumSemRebaixo'
+
 
 class App extends Component {
     render () {
         return (
-            <div className="corpo-site">
-                <Router>
+            <Router>
+                <div className="corpo-site">
+                    <header>
+                        <MenuTop />
+                        <MenuLateral />
+                    </header>
                     <main>
                         <form>
-                            <Route path='/' exact component={ BemVindo } />
-                            <Route path='/aluminiosemrebaixo' component={ AluminioSemRebaixo } />
+                            <table class="responsive-table centered">
+                                <Route path='/' exact component={ BemVindo } />
+                                <Route path='/aluminiumsemrebaixo' component={ AluminiumSemRebaixo } />
+                            </table>
                         </form>
                     </main>
-                </Router>
-            </div>
+                </div>
+            </Router>
         )
     }
 }
