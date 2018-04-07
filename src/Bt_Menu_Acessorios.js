@@ -11,31 +11,35 @@ class BtnAcessorios extends Component {
 
                 <ul id='acessoriosMenu' class='dropdown-content'>
                         <li>
-                            <a href="">Peças - Box Blindex® Classic</a>
+                            <Link to='/' >Peças - Box Blindex® Classic</Link>
                         </li>
                         <li class="divider"></li>
                         <li>
-                            <a href="#!">Perfis - Box Blindex® Classic</a>
+                            <Link to='/' >Perfis - Box Blindex® Classic</Link>
                         </li>
                         <li class="divider"></li>
                         <li>
-                            <a href="#!">Peças - Box Blindex® Classic Dual Door</a>
+                            <Link to='/' >Peças - Box Blindex® Classic Dual Door</Link>
                         </li>
                         <li class="divider"></li>
                         <li>
-                            <a href="#!">Perfis - Box Blindex® Classic Dual Door</a>
+                            <Link to='/' >Perfis - Box Blindex® Classic Dual Door</Link>
                         </li>
+                        <li class="divider"></li>
                         <li>
-                            <a href="#!">Peças - Box Blindex® Classic Open</a>
+                            <Link to='/' >Peças - Box Blindex® Classic Open</Link>
                         </li>
+                        <li class="divider"></li>
                         <li>
-                            <a href="#!">Perfis - Box Blindex® Classic Open</a>
+                            <Link to='/' >Perfis - Box Blindex® Classic Open</Link>
                         </li>
+                        <li class="divider"></li>
                         <li>
-                            <a href="#!">Peças - Box Blindex® Aluminium (com ou sem rebaixo)</a>
+                            <Link to='/' >Peças - Box Blindex® Aluminium (com ou sem rebaixo)</Link>
                         </li>
+                        <li class="divider"></li>
                         <li>
-                            <a href="#!">Perfis - Box Blindex® Aluminium (com ou sem rebaixo)</a>
+                            <Link to='/' >Perfis - Box Blindex® Aluminium (com ou sem rebaixo)</Link>
                         </li>
                     </ul>
             </li>
