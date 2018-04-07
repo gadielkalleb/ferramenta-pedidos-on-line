@@ -29,7 +29,7 @@ class AluminiumSemRebaixo extends Component {
     render () {
         return (
             <div class="row">
-            
+
                 <div class="col s12">
                     <div class="card" style={{ background: corPadrao.azul }}>
                         <div class="card-content white-text">
@@ -40,8 +40,8 @@ class AluminiumSemRebaixo extends Component {
             
                 <div class="col s12">
                     <div class="card">
-                        <div class=" card-title">KC 4P CANTO</div>
                         <div class="card-content">
+                        <span class=" card-title">KC 4P CANTO</span>
                             <TheadK/>
                             { this.state.produtos.KC4PCANTO.map(produtos => <li>{console.log(produtos)}</li>) }
                         </div>
@@ -50,8 +50,8 @@ class AluminiumSemRebaixo extends Component {
 
                 <div class="col s12">
                     <div class="card">
-                        <div class=" card-title">KC 4P CANTO</div>
                         <div class="card-content">
+                        <span class=" card-title">KC 4P CANTO</span>
                             <TheadK/>
                             { this.state.produtos.map(produtos => <li>{console.log(produtos)}</li>) }
                         </div>
@@ -60,8 +60,8 @@ class AluminiumSemRebaixo extends Component {
 
                 <div class="col s12">
                     <div class="card">
-                        <div class=" card-title">KC 4P CANTO</div>
                         <div class="card-content">
+                        <span class=" card-title">KC 4P CANTO</span>
                             <TheadK/>
                             { this.state.produtos.map(produtos => <li>{console.log(produtos)}</li>) }
                         </div>
@@ -70,8 +70,8 @@ class AluminiumSemRebaixo extends Component {
 
                 <div class="col s12">
                     <div class="card">
-                        <div class=" card-title">KC 4P CANTO</div>
                         <div class="card-content">
+                        <span class=" card-title">KC 4P CANTO</span>
                             <TheadK/>
                             { this.state.produtos.map(produtos => <li>{console.log(produtos)}</li>) }
                         </div>
