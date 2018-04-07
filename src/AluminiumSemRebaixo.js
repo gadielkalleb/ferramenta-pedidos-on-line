@@ -42,7 +42,37 @@ class AluminiumSemRebaixo extends Component {
                         <div class=" card-title">KC 4P CANTO</div>
                         <div class="card-content">
                             <TheadK/>
-                            { this.state.produtos.map(produtos => <li>console.log(produtos)</li>) }
+                            { this.state.produtos.KC4PCANTO.map(produtos => <li>{console.log(produtos)}</li>) }
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s12">
+                    <div class="card">
+                        <div class=" card-title">KC 4P CANTO</div>
+                        <div class="card-content">
+                            <TheadK/>
+                            { this.state.produtos.map(produtos => <li>{console.log(produtos)}</li>) }
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s12">
+                    <div class="card">
+                        <div class=" card-title">KC 4P CANTO</div>
+                        <div class="card-content">
+                            <TheadK/>
+                            { this.state.produtos.map(produtos => <li>{console.log(produtos)}</li>) }
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s12">
+                    <div class="card">
+                        <div class=" card-title">KC 4P CANTO</div>
+                        <div class="card-content">
+                            <TheadK/>
+                            { this.state.produtos.map(produtos => <li>{console.log(produtos)}</li>) }
                         </div>
                     </div>
                 </div>
