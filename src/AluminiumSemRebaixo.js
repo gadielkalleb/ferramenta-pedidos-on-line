@@ -26,7 +26,7 @@ class AluminiumSemRebaixo extends Component {
             .then(res => {
                 const produtos = res.data
                 const titulo = res.data.title
-                const kc4pcanto = res.data.result.KC4PCANTO
+                const kc4pcanto = res.data.result.KC4PCANTO[0]
                 this.setState({
                     produtos: produtos,
                     titulo: titulo,
@@ -50,7 +50,7 @@ class AluminiumSemRebaixo extends Component {
                 <div className="col s12">
                     <div className="card">
                         <div className="card-content">
-                            <span className=" card-title">KC 4P CANTO</span>
+                            <span className=" card-title">{this.state.kc4pcanto.tipo}</span>
                             <table className="responsive-table centered">
                                 <TheadK />
                                 {console.log(this.state.kc4pcanto)}
@@ -58,11 +58,11 @@ class AluminiumSemRebaixo extends Component {
                                     <tr>
                                         <td className="row">
                                             <div className="col s7 offset-s2">
-                                                ${this.state.kc4pcanto.tamanho}</div>
+                                                {this.state.kc4pcanto.tamanho}</div>
                                         </td>
                                         <td className="row">
                                             <div className="col s7 offset-s2">
-                                                ${this.state.kc4pcanto.codblindex}</div>
+                                                {this.state.kc4pcanto.codblindex}</div>
                                         </td>
                                         <td className="row">
                                             <div className="input-field col s7 offset-s2">
@@ -133,7 +133,7 @@ class AluminiumSemRebaixo extends Component {
                         </div>
                     </div>
                 </div>
-            </div >
+            </div>
 
         )
     }
