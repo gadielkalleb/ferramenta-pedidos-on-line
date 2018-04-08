@@ -9,15 +9,15 @@ class BtnBoxBlindex extends Component {
             <li className="botaoMenu">
                 <a className='dropdown-button btn' data-activates='boxBlindexMenu'>Box Blindex®</a>
 
-                <ul id='boxBlindexMenu' class='dropdown-content'>
+                <ul id='boxBlindexMenu' className='dropdown-content'>
                     <li>
                         <Link to="/aluminiumsemrebaixo" id="asemrebaixo">Box Blindex® Aluminium (sem rebaixo)</Link>
                     </li>
-                    <li class="divider"></li>
+                    <li className="divider"></li>
                     <li>
                         <Link to="/aluminiumcomrebaixo" id="acomrebaixo">Box Blindex® Aluminium (com rebaixo)</Link>
                     </li>
-                    <li class="divider"></li>
+                    <li className="divider"></li>
                     <li>
                         <Link to="aluminiumretocomrebaixo" id="aretocomrebaixo">Box Blindex® Aluminium Reto (com rebaixo)</Link>
                     </li>

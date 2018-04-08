@@ -1,7 +1,7 @@
-import React, { Component } from 'react'
+import React, {Component} from 'react'
 import axios from 'axios'
 
-//import TabelaK from './TabelaK'
+import TabelaK from './TabelaK'
 import TheadK from './TheadK'
 
 const corPadrao = {
@@ -9,75 +9,55 @@ const corPadrao = {
 }
 
 class AluminiumSemRebaixo extends Component {
-    constructor (props) {
-        super (props)
+    constructor(props) {
+        super(props)
 
         this.state = {
-            produtos: []
+            produtos: [],
+            titulo: [],
+            kc4pcanto: []
         }
 
-
     }
-    
+
     componentDidMount() {
-        axios.get('http://localhost:8000/asemrebaixo.php').then(res => {
-            const produtos = res.result
-            this.setState({ produtos })
-        })
+        axios
+            .get('http://localhost:8000/asemrebaixo.php')
+            .then(res => {
+                const produtos = res.data
+                const titulo = res.data.title
+                const kc4pcanto = res.data.result.KC4PCANTO
+                this.setState({
+                    produtos: produtos,
+                    titulo: titulo,
+                    kc4pcanto: kc4pcanto
+                })
+            })
     }
-    
-    render () {
+
+    render() {
         return (
-            <div class="row">
 
-                <div class="col s12">
-                    <div class="card" style={{ background: corPadrao.azul }}>
-                        <div class="card-content white-text">
-                            <h4 class="light">{ this.state.produtos.title }</h4>
-                        </div>
-                    </div>
-                </div>
-            
-                <div class="col s12">
-                    <div class="card">
-                        <div class="card-content">
-                        <span class=" card-title">KC 4P CANTO</span>
-                            <TheadK/>
-                            { this.state.produtos.KC4PCANTO.map(produtos => <li>{console.log(produtos)}</li>) }
+            <div className="row">
+                <div className="col s12">
+                    <div className="card" style={{ background: corPadrao.azul }}>
+                        <div className="card-content white-text">
+                            <h4 className="light">{this.state.titulo}</h4>
                         </div>
                     </div>
                 </div>
 
-                <div class="col s12">
-                    <div class="card">
-                        <div class="card-content">
-                        <span class=" card-title">KC 4P CANTO</span>
+                <div className="col s12">
+                    <div className="card">
+                        <div className="card-content">
+                            <span className=" card-title">KC 4P CANTO</span>
                             <TheadK/>
-                            { this.state.produtos.map(produtos => <li>{console.log(produtos)}</li>) }
+                            <table className="responsive-table centered">
+                                {console.log(this.state.kc4pcanto)}
+                            </table>
                         </div>
                     </div>
                 </div>
-
-                <div class="col s12">
-                    <div class="card">
-                        <div class="card-content">
-                        <span class=" card-title">KC 4P CANTO</span>
-                            <TheadK/>
-                            { this.state.produtos.map(produtos => <li>{console.log(produtos)}</li>) }
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col s12">
-                    <div class="card">
-                        <div class="card-content">
-                        <span class=" card-title">KC 4P CANTO</span>
-                            <TheadK/>
-                            { this.state.produtos.map(produtos => <li>{console.log(produtos)}</li>) }
-                        </div>
-                    </div>
-                </div>
-                
             </div>
 
         )

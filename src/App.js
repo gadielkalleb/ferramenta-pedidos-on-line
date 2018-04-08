@@ -21,10 +21,8 @@ class App extends Component {
                     </header>
                     <main>
                         <form>
-                            <table class="responsive-table centered">
-                                <Route path='/' exact component={ BemVindo } />
-                                <Route path='/aluminiumsemrebaixo' component={ AluminiumSemRebaixo } />
-                            </table>
+                        <Route path='/' exact component={ BemVindo } />
+                        <Route path='/aluminiumsemrebaixo' component={ AluminiumSemRebaixo } />
                         </form>
                     </main>
                 </div>

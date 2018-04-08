@@ -6,7 +6,7 @@ const BemVindo = props => <div className="row">
     <div className="col s12 m6">
         <div className="card  z-depth-4">
             <div className="card-image">
-                <img src={ ImgCard }></img>
+                <img src={ ImgCard } alt="imagem aluminium com a mensagem seja bem vindos"></img>
                 <span className="card-title black-text">Seja Bem vindo</span>
             </div>
             <div className="card-content black-text">
