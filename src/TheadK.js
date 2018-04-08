@@ -1,6 +1,6 @@
 import React from 'react'
 
-const TheadK = props => <table className="responsive-table centered">
+const TheadK = props =>
     <thead>
         <tr>
             <th>tamanho</th>
@@ -14,6 +14,6 @@ const TheadK = props => <table className="responsive-table centered">
             <th>Bege</th>
         </tr>
     </thead>
-</table>
+
 
 export default TheadK

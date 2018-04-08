@@ -1,7 +1,7 @@
-import React, {Component} from 'react'
+import React, { Component } from 'react'
 import axios from 'axios'
 
-import TabelaK from './TabelaK'
+//import TabelaK from './TabelaK'
 import TheadK from './TheadK'
 
 const corPadrao = {
@@ -51,14 +51,89 @@ class AluminiumSemRebaixo extends Component {
                     <div className="card">
                         <div className="card-content">
                             <span className=" card-title">KC 4P CANTO</span>
-                            <TheadK/>
                             <table className="responsive-table centered">
+                                <TheadK />
                                 {console.log(this.state.kc4pcanto)}
+                                <tbody>
+                                    <tr>
+                                        <td className="row">
+                                            <div className="col s7 offset-s2">
+                                                ${this.state.kc4pcanto.tamanho}</div>
+                                        </td>
+                                        <td className="row">
+                                            <div className="col s7 offset-s2">
+                                                ${this.state.kc4pcanto.codblindex}</div>
+                                        </td>
+                                        <td className="row">
+                                            <div className="input-field col s7 offset-s2">
+                                                <input
+                                                    className=" center-align"
+                                                    type="number"
+                                                    maxLength="4"
+                                                    name={this.state.kc4pcanto.cod_sbm_blindex_FF}></input>
+                                            </div>
+                                        </td>
+                                        <td className="row">
+                                            <div className="input-field col s7 offset-s2">
+                                                <input
+                                                    className=" center-align"
+                                                    type="number"
+                                                    maxLength="4"
+                                                    name={this.state.kc4pcanto.cod_sbm_blindex_PB}></input>
+                                            </div>
+                                        </td>
+                                        <td className="row">
+                                            <div className="input-field col s7 offset-s2">
+                                                <input
+                                                    className=" center-align"
+                                                    type="number"
+                                                    maxLength="4"
+                                                    name={this.state.kc4pcanto.cod_sbm_blindex_BF}></input>
+                                            </div>
+                                        </td>
+                                        <td className="row">
+                                            <div className="input-field col s7 offset-s2">
+                                                <input
+                                                    className=" center-align"
+                                                    type="number"
+                                                    maxLength="4"
+                                                    name={this.state.kc4pcanto.cod_sbm_blindex_DB}></input>
+                                            </div>
+                                        </td>
+                                        <td className="row">
+                                            <div className="input-field col s7 offset-s2">
+                                                <input
+                                                    className=" center-align"
+                                                    type="number"
+                                                    maxLength="4"
+                                                    name={this.state.kc4pcanto.cod_sbm_blindex_BC}></input>
+                                            </div>
+                                        </td>
+                                        <td className="row">
+                                            <div className="input-field col s7 offset-s2">
+                                                <input
+                                                    className=" center-align"
+                                                    type="number"
+                                                    maxLength="4"
+                                                    name={this.state.kc4pcanto.cod_sbm_blindex_PT}></input>
+                                            </div>
+                                        </td>
+                                        <td className="row">
+                                            <div className="input-field col s7 offset-s2">
+                                                <input
+                                                    className=" center-align"
+                                                    type="number"
+                                                    maxLength="4"
+                                                    name={this.state.kc4pcanto.cod_sbm_blindex_BG}></input>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
                             </table>
                         </div>
                     </div>
                 </div>
-            </div>
+            </div >
 
         )
     }
