@@ -1,14 +1,10 @@
 import React from 'react'
 
-const Obs = props => <div class="row container">
-    <form class="card col s12">
-        <div class="row">
-            <div class="input-field col s12">
-                <textarea id="observacao" class="materialize-textarea" data-length="120"></textarea>
-                <label for="observacao">Observação</label>
-            </div>
-        </div>
-    </form>
+const Obs = props => <div className="row container">
+    <div className="input-field col s12">
+        <textarea id="observacao" className="materialize-textarea" data-length="120"></textarea>
+        <label htmlFor="observacao">Observação</label>
+    </div>
 </div>
 
 export default Obs

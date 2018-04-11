@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 
 import TabelaK from './tabelas/TabelaK'
 import TheadK from './tabelas/TheadK'
@@ -9,7 +10,6 @@ import kf2pfrontal from './data/alucomrebaixo/kf2pfrontal'
 const corPadrao = {
     azul: "#012641"
 }
-
 
 
 class AluminiumSemRebaixo extends Component {
@@ -27,31 +27,35 @@ class AluminiumSemRebaixo extends Component {
                     </div>
                 </div>
 
-                <div class="row">
-                    <div class="col s12">
-                        <ul class="tabs">
-                            <li class="tab col s3"><a class="active" href="#test1">{kc4pcanto.produto}</a></li>
-                            <li class="tab col s3"><a href="#test2">{kf2pfrontal.produto}</a></li>
-                            <li class="tab col s3 disabled"><a href="#test3">Disabled Tab</a></li>
-                            <li class="tab col s3"><a href="#test4">Test 4</a></li>
+                <div className="row">
+                    <div className="col s12">
+                        <ul className="tabs">
+                            <li className="tab col s3"><Link className="active" to="#test1">{kc4pcanto.produto}</Link></li>
+                            <li className="tab col s3"><Link to="#test2">{kf2pfrontal.produto}</Link></li>
+                            <li className="tab col s3 disabled"><Link to="#test3">Disabled Tab</Link></li>
+                            <li className="tab col s3"><Link to="#test4">Test 4</Link></li>
                         </ul>
                     </div>
-                    <div id="test1" class="col s12">
-                        <table className="responsive-table centered">
+                    <div id="test1" className="col s12">
+                        <table className="responsive-table centered striped">
                                 <TheadK />
-                                {kc4pcanto.data.map(produto => <TabelaK key={produto.tam} tam={produto.tam} cod={produto.cod} FF={produto.FF} PB={produto.PB} BF={produto.BF} DB={produto.DB} BC={produto.BC} PT={produto.PT} BG={produto.BG} />)
-                                }
+                                <tbody>
+                                    {kc4pcanto.data.map(produto => <TabelaK key={produto.tam} tam={produto.tam} cod={produto.cod} FF={produto.FF} PB={produto.PB} BF={produto.BF} DB={produto.DB} BC={produto.BC} PT={produto.PT} BG={produto.BG} />)
+                                    }
+                                </tbody>
                             </table>
                     </div>
-                    <div id="test2" class="col s12">
-                        <table className="responsive-table centered">
+                    <div id="test2" className="col s12">
+                        <table className="responsive-table centered striped">
                                 <TheadK />
-                                {kf2pfrontal.data.map(produto => <TabelaK key={produto.tam} tam={produto.tam} cod={produto.cod} FF={produto.FF} PB={produto.PB} BF={produto.BF} DB={produto.DB} BC={produto.BC} PT={produto.PT} BG={produto.BG} />)
-                                }
+                                <tbody>
+                                    {kf2pfrontal.data.map(produto => <TabelaK key={produto.tam} tam={produto.tam} cod={produto.cod} FF={produto.FF} PB={produto.PB} BF={produto.BF} DB={produto.DB} BC={produto.BC} PT={produto.PT} BG={produto.BG} />)
+                                    }
+                                </tbody>
                             </table>
                     </div>
-                    <div id="test3" class="col s12">Test 3</div>
-                    <div id="test4" class="col s12">Test 4</div>
+                    <div id="test3" className="col s12">Test 3</div>
+                    <div id="test4" className="col s12">Test 4</div>
                 </div>
                             
                 <Obs />               

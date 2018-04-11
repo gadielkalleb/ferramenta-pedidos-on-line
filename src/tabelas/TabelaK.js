@@ -1,6 +1,6 @@
 import React from 'react'
 
-const TabelaK = (props) => <tbody>
+const TabelaK = (props) => 
     <tr>
         <td className="row">
             <div className="col s7 offset-s2">
@@ -74,6 +74,5 @@ const TabelaK = (props) => <tbody>
             </div>
         </td>
     </tr>
-</tbody>
 
 export default TabelaK
