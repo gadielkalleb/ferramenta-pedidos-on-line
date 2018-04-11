@@ -1,22 +1,22 @@
 import React from 'react'
 
-const TabelaK = props => <tbody>
+const TabelaK = (props) => <tbody>
     <tr>
         <td className="row">
             <div className="col s7 offset-s2">
-                ${props.tamanho}</div>
+                {props.tam}</div>
         </td>
         <td className="row">
             <div className="col s7 offset-s2">
-                ${props.codblindex}</div>
+                {props.cod}</div>
         </td>
         <td className="row">
             <div className="input-field col s7 offset-s2">
                 <input
                     className=" center-align"
                     type="number"
-                    maxlength="4"
-                    name={props.cod_sbm_blindex_FF}></input>
+                    maxLength="4"
+                    name={props.FF}></input>
             </div>
         </td>
         <td className="row">
@@ -24,8 +24,8 @@ const TabelaK = props => <tbody>
                 <input
                     className=" center-align"
                     type="number"
-                    maxlength="4"
-                    name={props.cod_sbm_blindex_PB}></input>
+                    maxLength="4"
+                    name={props.PB}></input>
             </div>
         </td>
         <td className="row">
@@ -33,8 +33,8 @@ const TabelaK = props => <tbody>
                 <input
                     className=" center-align"
                     type="number"
-                    maxlength="4"
-                    name={props.cod_sbm_blindex_BF}></input>
+                    maxLength="4"
+                    name={props.BF}></input>
             </div>
         </td>
         <td className="row">
@@ -42,8 +42,8 @@ const TabelaK = props => <tbody>
                 <input
                     className=" center-align"
                     type="number"
-                    maxlength="4"
-                    name={props.cod_sbm_blindex_DB}></input>
+                    maxLength="4"
+                    name={props.DB}></input>
             </div>
         </td>
         <td className="row">
@@ -51,8 +51,8 @@ const TabelaK = props => <tbody>
                 <input
                     className=" center-align"
                     type="number"
-                    maxlength="4"
-                    name={props.cod_sbm_blindex_BC}></input>
+                    maxLength="4"
+                    name={props.BC}></input>
             </div>
         </td>
         <td className="row">
@@ -60,8 +60,8 @@ const TabelaK = props => <tbody>
                 <input
                     className=" center-align"
                     type="number"
-                    maxlength="4"
-                    name={props.cod_sbm_blindex_PT}></input>
+                    maxLength="4"
+                    name={props.PT}></input>
             </div>
         </td>
         <td className="row">
@@ -69,8 +69,8 @@ const TabelaK = props => <tbody>
                 <input
                     className=" center-align"
                     type="number"
-                    maxlength="4"
-                    name={props.cod_sbm_blindex_BG}></input>
+                    maxLength="4"
+                    name={props.BG}></input>
             </div>
         </td>
     </tr>

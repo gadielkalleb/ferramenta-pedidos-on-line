@@ -1,7 +1,8 @@
 $(document).ready(function () {
-  $('.modal').modal();
+  // $('.modal').modal();
   $('.collapsible').collapsible();
   $(".button-collapse").sideNav();
+  $('.tabs').tabs();
   $('.dropdown-button').dropdown({
     inDuration: 300,
     outDuration: 225,
@@ -10,16 +11,16 @@ $(document).ready(function () {
     gutter: 0, // Spacing from edge
     belowOrigin: false, // Displays dropdown below the button
   });
-  $('.parallax').parallax();
+  // $('.parallax').parallax();
   // $('.carousel.carousel-slider').carousel({
   //   fullWidth: true
   // }, autoPlay());
-  $('.slider').slider();
+  // $('.slider').slider();
 });
 
 // faz o carousel deslizar sozinho
-function autoPlay() {
-  $('.carousel').carousel('next');
-  setTimeout(autoPlay, 4500);
-}
+// function autoPlay() {
+//   $('.carousel').carousel('next');
+//   setTimeout(autoPlay, 4500);
+// }
 
