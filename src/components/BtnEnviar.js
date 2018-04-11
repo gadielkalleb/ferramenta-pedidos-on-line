@@ -12,11 +12,22 @@ class BtnEnviar extends Component {
     }
 
     handleChange(event){
-        console.log(event.target.value)
+        this.setState({
+            checkboxState: !this.state.checkboxState
+        })
     }
 
     componentDidMount(){
-
+        if (this.state.checkboxState === true) {
+            this.setState({
+                btnDisable: false
+            })
+        } else {
+            this.setState({
+                btnDisable: true
+            })
+        }
+        
     }
         
     render(){
