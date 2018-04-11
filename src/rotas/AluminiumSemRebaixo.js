@@ -1,10 +1,18 @@
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
-import { Tabs, Tab } from 'react-materialize'
+import { 
+    Tabs, 
+    Tab,  
+    Row, 
+    Col,
+    Card,
+    Table 
+} from 'react-materialize'
 
 import TabelaK from '../tabelas/TabelaK'
 import TheadK from '../tabelas/TheadK'
-import Obs from '../Observacao'
+import Obs from '../components/Observacao'
+import BtnEnviar from '../components/BtnEnviar'
+
 import kc4pcanto from '../data/alucomrebaixo/kc4pcanto'
 import kf2pfrontal from '../data/alucomrebaixo/kf2pfrontal'
 
@@ -18,41 +26,41 @@ class AluminiumSemRebaixo extends Component {
     render() {
         return (
 
-            <div className="row">
+            <Row>
 
-                <div className="col s12">
-                    <div className="card" style={{ background: corPadrao.azul }}>
-                        <div className="card-content white-text">
-                            <h4 className="light">{kc4pcanto.titulo}</h4>
-                        </div>
-                    </div>
-                </div>
+                <Col s={12}>
+                    <Card style={{ background: corPadrao.azul }} textClassName='white-text'>
+                        <h4 className="light">{kc4pcanto.titulo}</h4>
+                    </Card>
+                </Col>
 
-                <Tabs className='tab-demo z-depth-1'>
-                    <Tab title={kc4pcanto.produto} tabWidth="3" active>
-                        <table className="responsive-table centered striped">
+                <Tabs className='z-depth-1'>
+                    <Tab title={kc4pcanto.produto} tabWidth={3} active>
+                        <Table centered striped responsive>
                             <TheadK />
                             <tbody>
                                 {kc4pcanto.data.map(produto => <TabelaK key={produto.tam} tam={produto.tam} cod={produto.cod} FF={produto.FF} PB={produto.PB} BF={produto.BF} DB={produto.DB} BC={produto.BC} PT={produto.PT} BG={produto.BG} />)
                                 }
                             </tbody>
-                        </table>
+                        </Table>
                     </Tab>
-                    <Tab title={kf2pfrontal.produto} tabWidth="3">
-                        <table className="responsive-table centered striped">
+                    <Tab title={kf2pfrontal.produto} tabWidth={3}>
+                        <Table centered striped responsive>
                             <TheadK />
                             <tbody>
                                 {kf2pfrontal.data.map(produto => <TabelaK key={produto.tam} tam={produto.tam} cod={produto.cod} FF={produto.FF} PB={produto.PB} BF={produto.BF} DB={produto.DB} BC={produto.BC} PT={produto.PT} BG={produto.BG} />)
                                 }
                             </tbody>
-                        </table>
+                        </Table>
                     </Tab>
-                    <Tab title="Desativado" tabWidth="3" disabled></Tab>
-                    <Tab title="Desativado" tabWidth="3" disabled>Test 4</Tab>
+                    <Tab title="Desativado" tabWidth={3} disabled></Tab>
+                    <Tab title="Desativado" tabWidth={3} disabled></Tab>
                 </Tabs>
     
-                <Obs />               
-            </div>
+                <Obs />
+                <BtnEnviar/>
+
+            </Row>
 
         )
     }

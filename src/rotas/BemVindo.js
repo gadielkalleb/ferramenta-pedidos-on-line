@@ -1,27 +1,21 @@
 import React from 'react'
+import { Col, Card, Row, CardTitle } from 'react-materialize'
 
-import ImgCard from './img/aluminio_perfil.jpg'
+import ImgCard from '../img/aluminio_perfil.jpg'
 
-const BemVindo = props => <div className="row">
-    <div className="col s12 m6">
-        <div className="card  z-depth-4">
-            <div className="card-image">
-                <img src={ ImgCard } alt="imagem aluminium com a mensagem seja bem vindos"></img>
-                <span className="card-title black-text">Seja Bem vindo</span>
-            </div>
-            <div className="card-content black-text">
-                <p>Esta é a pagina de Pedidos On Line produtos Blindex®</p>
-            </div>
-        </div>
-    </div>
-    <div className="col s12 m6">
-        <div className="card  z-depth-4">
-            <div className="card-content black-text">
-                <span className="card-title black-text">Seja Bem vindo</span>
-                    <p>Esta é a pagina de Pedidos On Line produtos Blindex®</p>
-                </div>
-            </div>
-        </div>
-    </div>
+const BemVindo = props =>
+    <Row>
+        <Col s={12} m={6}>
+            <Card className="z-depth-4" title='Seja Bem vindo ao pedidos on line Blindex®' header={<CardTitle image={ImgCard}></CardTitle>}>
+                Esta é a pagina de Pedidos On Line produtos Blindex®
+        </Card>
+        </Col>
+        <Col s={12} m={6}>
+            <Card className="z-depth-4" textClassName='black-text' title='Novidades'>
+                <p>Este é um card com as novidades sobre os produtos Blindex®</p>
+            </Card>
+        </Col>
+    </Row>
+
 
 export default BemVindo
