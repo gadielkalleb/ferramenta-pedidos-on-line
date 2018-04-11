@@ -1,0 +1,49 @@
+{
+    "produto": "KF 2P FRONTAL",
+    "data": [
+        {
+            "tam": "1,00m",
+            "cod": "700",
+            "FF": "CodBlindex_700FF_CodSBM_31270",
+            "PB": "CodBlindex_700PB_CodSBM_31271",
+            "BF": "CodBlindex_700BF_CodSBM_31272",
+            "DB": "CodBlindex_700DB_CodSBM_32301",
+            "BC": "CodBlindex_700BC_CodSBM_31273",
+            "PT": "CodBlindex_700PT_CodSBM_31274",
+            "BG": "CodBlindex_700BG_CodSBM_31275"
+        },
+        {
+            "tam": "1,20m",
+            "cod": "701",
+            "FF": "CodBlindex_701FF_CodSBM_31276",
+            "PB": "CodBlindex_701PB_CodSBM_31277",
+            "BF": "CodBlindex_701BF_CodSBM_31278",
+            "DB": "CodBlindex_701DB_CodSBM_32302",
+            "BC": "CodBlindex_701BC_CodSBM_31279",
+            "PT": "CodBlindex_701PT_CodSBM_31280",
+            "BG": "CodBlindex_701BG_CodSBM_31281"
+        },
+        {
+            "tam": "1,50m",
+            "cod": "702",
+            "FF": "CodBlindex_702FF_CodSBM_31282",
+            "PB": "CodBlindex_702PB_CodSBM_31283",
+            "BF": "CodBlindex_702BF_CodSBM_31284",
+            "DB": "CodBlindex_702DB_CodSBM_32303",
+            "BC": "CodBlindex_702BC_CodSBM_31285",
+            "PT": "CodBlindex_702PT_CodSBM_31286",
+            "BG": "CodBlindex_702BG_CodSBM_31287"
+        },
+        {
+            "tam": "0,90m",
+            "cod": "705",
+            "FF": "CodBlindex_705FF_CodSBM_31288",
+            "PB": "CodBlindex_705PB_CodSBM_31289",
+            "BF": "CodBlindex_705BF_CodSBM_31290",
+            "DB": "CodBlindex_705DB_CodSBM_32304",
+            "BC": "CodBlindex_705BC_CodSBM_31291",
+            "PT": "CodBlindex_705PT_CodSBM_31292",
+            "BG": "CodBlindex_705BG_CodSBM_31293"
+        }
+    ]
+}
