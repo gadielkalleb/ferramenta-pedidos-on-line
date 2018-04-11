@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom'
 
 import logo from '../img/logo-frt.jpeg';
 import '../css/MenuLateral.css';
@@ -20,13 +21,13 @@ class MenuLateral extends Component {
                 <li className="logo">
                     <div className="row">
                         <div className="card col s12">
-                            <a className="brand-logo">
+                            <Link to='/' className="brand-logo">
                                 <img
                                     id="img-logo"
                                     className="responsive-img center"
                                     src={logo}
                                     alt="Logo FRT"></img>
-                            </a>
+                            </Link>
                         </div>
                     </div>
                 </li>
