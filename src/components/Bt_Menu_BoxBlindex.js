@@ -11,7 +11,7 @@ class BtnBoxBlindex extends Component {
 
                 <ul id='boxBlindexMenu' className='dropdown-content'>
                     <li>
-                        <Link to="/aluminiumsemrebaixo" id="asemrebaixo">Box Blindex® Aluminium (sem rebaixo)</Link>
+                        <Link to="/pedidos/aluminiumsemrebaixo" id="asemrebaixo">Box Blindex® Aluminium (sem rebaixo)</Link>
                     </li>
                     <li className="divider"></li>
                     <li>

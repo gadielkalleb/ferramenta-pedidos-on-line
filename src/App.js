@@ -21,8 +21,9 @@ class App extends Component {
                     </header>
                     <main>
                         <form>
-                        <Route path='/pedidos' exact component={ BemVindo } />
-                        <Route path='/aluminiumsemrebaixo' component={ AluminiumSemRebaixo } />
+                            <Route path='../index.html'></Route>
+                            <Route path='/pedidos' exact component={ BemVindo } />
+                            <Route path='/pedidos/aluminiumsemrebaixo' component={ AluminiumSemRebaixo } />
                         </form>
                     </main>
                 </div>

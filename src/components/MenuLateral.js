@@ -21,7 +21,7 @@ class MenuLateral extends Component {
                 <li className="logo">
                     <div className="row">
                         <div className="card col s12">
-                            <Link to='/' className="brand-logo">
+                            <Link to='/pedidos' className="brand-logo">
                                 <img
                                     id="img-logo"
                                     className="responsive-img center"
