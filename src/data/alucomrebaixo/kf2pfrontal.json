@@ -3,47 +3,80 @@
     "data": [
         {
             "tam": "1,00m",
-            "cod": "700",
-            "FF": "CodBlindex_700FF_CodSBM_31270",
-            "PB": "CodBlindex_700PB_CodSBM_31271",
-            "BF": "CodBlindex_700BF_CodSBM_31272",
-            "DB": "CodBlindex_700DB_CodSBM_32301",
-            "BC": "CodBlindex_700BC_CodSBM_31273",
-            "PT": "CodBlindex_700PT_CodSBM_31274",
-            "BG": "CodBlindex_700BG_CodSBM_31275"
+            "cod": "710",
+            "FF": "CodBlindex_710FF_CodSBM_31294",
+            "PB": "CodBlindex_710PB_CodSBM_31295",
+            "BF": "CodBlindex_710BF_CodSBM_31296",
+            "DB": "CodBlindex_710DB_CodSBM_32305",
+            "BC": "CodBlindex_710BC_CodSBM_31297",
+            "PT": "CodBlindex_710PT_CodSBM_31298",
+            "BG": "CodBlindex_710BG_CodSBM_31299"
         },
         {
             "tam": "1,20m",
-            "cod": "701",
-            "FF": "CodBlindex_701FF_CodSBM_31276",
-            "PB": "CodBlindex_701PB_CodSBM_31277",
-            "BF": "CodBlindex_701BF_CodSBM_31278",
-            "DB": "CodBlindex_701DB_CodSBM_32302",
-            "BC": "CodBlindex_701BC_CodSBM_31279",
-            "PT": "CodBlindex_701PT_CodSBM_31280",
-            "BG": "CodBlindex_701BG_CodSBM_31281"
+            "cod": "711",
+            "FF": "CodBlindex_711FF_CodSBM_31300",
+            "PB": "CodBlindex_711PB_CodSBM_31301",
+            "BF": "CodBlindex_711BF_CodSBM_31302",
+            "DB": "CodBlindex_711DB_CodSBM_32306",
+            "BC": "CodBlindex_711BC_CodSBM_31303",
+            "PT": "CodBlindex_711PT_CodSBM_31304",
+            "BG": "CodBlindex_711BG_CodSBM_31305"
+        },
+        {
+            "tam": "1,33m",
+            "cod": "714",
+            "FF": "CodBlindex_714FF_CodSBM_31950",
+            "PB": "CodBlindex_714PB_CodSBM_31951",
+            "BF": "CodBlindex_714BF_CodSBM_31952",
+            "DB": "CodBlindex_714DB_CodSBM_32307",
+            "BC": "CodBlindex_714BC_CodSBM_31953",
+            "PT": "CodBlindex_714PT_CodSBM_31954",
+            "BG": "CodBlindex_714BG_CodSBM_31955"
         },
         {
             "tam": "1,50m",
-            "cod": "702",
-            "FF": "CodBlindex_702FF_CodSBM_31282",
-            "PB": "CodBlindex_702PB_CodSBM_31283",
-            "BF": "CodBlindex_702BF_CodSBM_31284",
-            "DB": "CodBlindex_702DB_CodSBM_32303",
-            "BC": "CodBlindex_702BC_CodSBM_31285",
-            "PT": "CodBlindex_702PT_CodSBM_31286",
-            "BG": "CodBlindex_702BG_CodSBM_31287"
+            "cod": "712",
+            "FF": "CodBlindex_712FF_CodSBM_31306",
+            "PB": "CodBlindex_712PB_CodSBM_31307",
+            "BF": "CodBlindex_712BF_CodSBM_31308",
+            "DB": "CodBlindex_712DB_CodSBM_32308",
+            "BC": "CodBlindex_712BC_CodSBM_31309",
+            "PT": "CodBlindex_712PT_CodSBM_31310",
+            "BG": "CodBlindex_712BG_CodSBM_31311"
         },
         {
-            "tam": "0,90m",
-            "cod": "705",
-            "FF": "CodBlindex_705FF_CodSBM_31288",
-            "PB": "CodBlindex_705PB_CodSBM_31289",
-            "BF": "CodBlindex_705BF_CodSBM_31290",
-            "DB": "CodBlindex_705DB_CodSBM_32304",
-            "BC": "CodBlindex_705BC_CodSBM_31291",
-            "PT": "CodBlindex_705PT_CodSBM_31292",
-            "BG": "CodBlindex_705BG_CodSBM_31293"
+            "tam": "1,60m",
+            "cod": "713",
+            "FF": "CodBlindex_713FF_CodSBM_31312",
+            "PB": "CodBlindex_713PB_CodSBM_31313",
+            "BF": "CodBlindex_713BF_CodSBM_31314",
+            "DB": "CodBlindex_713DB_CodSBM_32309",
+            "BC": "CodBlindex_713BC_CodSBM_31315",
+            "PT": "CodBlindex_713PT_CodSBM_31316",
+            "BG": "CodBlindex_713BG_CodSBM_31317"
+        },
+        {
+            "tam": "1,80m",
+            "cod": "734",
+            "FF": "CodBlindex_734FF_CodSBM_31318",
+            "PB": "CodBlindex_734PB_CodSBM_31319",
+            "BF": "CodBlindex_734BF_CodSBM_31320",
+            "DB": "CodBlindex_734DB_CodSBM_32310",
+            "BC": "CodBlindex_734BC_CodSBM_31321",
+            "PT": "CodBlindex_734PT_CodSBM_31322",
+            "BG": "CodBlindex_734BG_CodSBM_31323"
+        },
+        {
+            "tam": "2,00m",
+            "cod": "735",
+            "FF": "CodBlindex_735FF_CodSBM_31324",
+            "PB": "CodBlindex_735PB_CodSBM_31325",
+            "BF": "CodBlindex_735BF_CodSBM_31326",
+            "DB": "CodBlindex_735DB_CodSBM_32311",
+            "BC": "CodBlindex_735BC_CodSBM_31327",
+            "PT": "CodBlindex_735PT_CodSBM_31328",
+            "BG": "CodBlindex_735BG_CodSBM_31329"
         }
     ]
 }

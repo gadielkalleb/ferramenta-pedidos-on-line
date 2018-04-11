@@ -2,90 +2,9 @@ const alucomrebaixo =
 
 
 
-{
-  "KF 2P FRONTAL",
-    "tam": "1,00m",
-      "710",
-      "CodBlindex_710FF_CodSBM_31294",
-      "CodBlindex_710PB_CodSBM_31295",
-      "CodBlindex_710BF_CodSBM_31296",
-      "CodBlindex_710DB_CodSBM_32305",
-      "CodBlindex_710BC_CodSBM_31297",
-      "CodBlindex_710PT_CodSBM_31298",
-      "CodBlindex_710BG_CodSBM_31299"
-}
-{
-  "KF 2P FRONTAL",
-    "tam": "1,20m",
-      "711",
-      "CodBlindex_711FF_CodSBM_31300",
-      "CodBlindex_711PB_CodSBM_31301",
-      "CodBlindex_711BF_CodSBM_31302",
-      "CodBlindex_711DB_CodSBM_32306",
-      "CodBlindex_711BC_CodSBM_31303",
-      "CodBlindex_711PT_CodSBM_31304",
-      "CodBlindex_711BG_CodSBM_31305"
-}
-{
-  "KF 2P FRONTAL",
-    "tam": "1,33m",
-      "714",
-      "CodBlindex_714FF_CodSBM_31950",
-      "CodBlindex_714PB_CodSBM_31951",
-      "CodBlindex_714BF_CodSBM_31952",
-      "CodBlindex_714DB_CodSBM_32307",
-      "CodBlindex_714BC_CodSBM_31953",
-      "CodBlindex_714PT_CodSBM_31954",
-      "CodBlindex_714BG_CodSBM_31955"
-}
-{
-  "KF 2P FRONTAL",
-    "tam": "1,50m",
-      "712",
-      "CodBlindex_712FF_CodSBM_31306",
-      "CodBlindex_712PB_CodSBM_31307",
-      "CodBlindex_712BF_CodSBM_31308",
-      "CodBlindex_712DB_CodSBM_32308",
-      "CodBlindex_712BC_CodSBM_31309",
-      "CodBlindex_712PT_CodSBM_31310",
-      "CodBlindex_712BG_CodSBM_31311"
-}
-{
-  "KF 2P FRONTAL",
-    "tam": "1,60m",
-      "713",
-      "CodBlindex_713FF_CodSBM_31312",
-      "CodBlindex_713PB_CodSBM_31313",
-      "CodBlindex_713BF_CodSBM_31314",
-      "CodBlindex_713DB_CodSBM_32309",
-      "CodBlindex_713BC_CodSBM_31315",
-      "CodBlindex_713PT_CodSBM_31316",
-      "CodBlindex_713BG_CodSBM_31317"
-}
-{
-  "KF 2P FRONTAL",
-    "tam": "1,80m",
-      "734",
-      "CodBlindex_734FF_CodSBM_31318",
-      "CodBlindex_734PB_CodSBM_31319",
-      "CodBlindex_734BF_CodSBM_31320",
-      "CodBlindex_734DB_CodSBM_32310",
-      "CodBlindex_734BC_CodSBM_31321",
-      "CodBlindex_734PT_CodSBM_31322",
-      "CodBlindex_734BG_CodSBM_31323"
-}
-{
-  "KF 2P FRONTAL",
-    "tam": "2,00m",
-      "735",
-      "CodBlindex_735FF_CodSBM_31324",
-      "CodBlindex_735PB_CodSBM_31325",
-      "CodBlindex_735BF_CodSBM_31326",
-      "CodBlindex_735DB_CodSBM_32311",
-      "CodBlindex_735BC_CodSBM_31327",
-      "CodBlindex_735PT_CodSBM_31328",
-      "CodBlindex_735BG_CodSBM_31329"
-}
+
+
+// =============================
 {
   "KF 3P FRONTAL",
     "tam": "1,60m",
