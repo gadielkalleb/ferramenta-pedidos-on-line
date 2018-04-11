@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './css/MenuTop.css';
+import '../css/MenuTop.css';
 import Logout from './Logout'
 import BtnBoxBlindex from './Bt_Menu_BoxBlindex'
 import BtnAcessorios from './Bt_Menu_Acessorios'

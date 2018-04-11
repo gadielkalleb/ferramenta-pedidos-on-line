@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
-import logo from './img/logo-frt.jpeg';
-import './css/MenuLateral.css';
+import logo from '../img/logo-frt.jpeg';
+import '../css/MenuLateral.css';
 
 class MenuLateral extends Component {
     constructor (props) {

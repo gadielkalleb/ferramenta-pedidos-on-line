@@ -2,11 +2,11 @@ import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 import { Tabs, Tab } from 'react-materialize'
 
-import TabelaK from './tabelas/TabelaK'
-import TheadK from './tabelas/TheadK'
-import Obs from './Observacao'
-import kc4pcanto from './data/alucomrebaixo/kc4pcanto'
-import kf2pfrontal from './data/alucomrebaixo/kf2pfrontal'
+import TabelaK from '../tabelas/TabelaK'
+import TheadK from '../tabelas/TheadK'
+import Obs from '../Observacao'
+import kc4pcanto from '../data/alucomrebaixo/kc4pcanto'
+import kf2pfrontal from '../data/alucomrebaixo/kf2pfrontal'
 
 const corPadrao = {
     azul: "#012641"

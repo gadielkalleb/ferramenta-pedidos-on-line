@@ -4,10 +4,10 @@ import {
     Route,
 } from 'react-router-dom'
 
-import MenuTop from './MenuTop'
-import MenuLateral from './MenuLateral'
-import BemVindo from './BemVindo'
-import AluminiumSemRebaixo from './AluminiumSemRebaixo'
+import MenuTop from './components/MenuTop'
+import MenuLateral from './components/MenuLateral'
+import BemVindo from './rotas/BemVindo'
+import AluminiumSemRebaixo from './rotas/AluminiumSemRebaixo'
 
 
 class App extends Component {

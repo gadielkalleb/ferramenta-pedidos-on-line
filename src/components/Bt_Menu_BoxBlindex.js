@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
 
-import './css/Bt_Menu_BoxBlindex.css'
+import '../css/Bt_Menu_BoxBlindex.css'
 
 class BtnBoxBlindex extends Component {
     render() {
