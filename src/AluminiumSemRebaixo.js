@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
+import { Tabs, Tab } from 'react-materialize'
 
 import TabelaK from './tabelas/TabelaK'
 import TheadK from './tabelas/TheadK'
@@ -27,37 +28,29 @@ class AluminiumSemRebaixo extends Component {
                     </div>
                 </div>
 
-                <div className="row">
-                    <div className="col s12">
-                        <ul className="tabs">
-                            <li className="tab col s3"><Link className="active" to="#test1">{kc4pcanto.produto}</Link></li>
-                            <li className="tab col s3"><Link to="#test2">{kf2pfrontal.produto}</Link></li>
-                            <li className="tab col s3 disabled"><Link to="#test3">Disabled Tab</Link></li>
-                            <li className="tab col s3"><Link to="#test4">Test 4</Link></li>
-                        </ul>
-                    </div>
-                    <div id="test1" className="col s12">
+                <Tabs className='tab-demo z-depth-1'>
+                    <Tab title={kc4pcanto.produto} tabWidth="3" active>
                         <table className="responsive-table centered striped">
-                                <TheadK />
-                                <tbody>
-                                    {kc4pcanto.data.map(produto => <TabelaK key={produto.tam} tam={produto.tam} cod={produto.cod} FF={produto.FF} PB={produto.PB} BF={produto.BF} DB={produto.DB} BC={produto.BC} PT={produto.PT} BG={produto.BG} />)
-                                    }
-                                </tbody>
-                            </table>
-                    </div>
-                    <div id="test2" className="col s12">
+                            <TheadK />
+                            <tbody>
+                                {kc4pcanto.data.map(produto => <TabelaK key={produto.tam} tam={produto.tam} cod={produto.cod} FF={produto.FF} PB={produto.PB} BF={produto.BF} DB={produto.DB} BC={produto.BC} PT={produto.PT} BG={produto.BG} />)
+                                }
+                            </tbody>
+                        </table>
+                    </Tab>
+                    <Tab title={kf2pfrontal.produto} tabWidth="3">
                         <table className="responsive-table centered striped">
-                                <TheadK />
-                                <tbody>
-                                    {kf2pfrontal.data.map(produto => <TabelaK key={produto.tam} tam={produto.tam} cod={produto.cod} FF={produto.FF} PB={produto.PB} BF={produto.BF} DB={produto.DB} BC={produto.BC} PT={produto.PT} BG={produto.BG} />)
-                                    }
-                                </tbody>
-                            </table>
-                    </div>
-                    <div id="test3" className="col s12">Test 3</div>
-                    <div id="test4" className="col s12">Test 4</div>
-                </div>
-                            
+                            <TheadK />
+                            <tbody>
+                                {kf2pfrontal.data.map(produto => <TabelaK key={produto.tam} tam={produto.tam} cod={produto.cod} FF={produto.FF} PB={produto.PB} BF={produto.BF} DB={produto.DB} BC={produto.BC} PT={produto.PT} BG={produto.BG} />)
+                                }
+                            </tbody>
+                        </table>
+                    </Tab>
+                    <Tab title="Desativado" tabWidth="3" disabled></Tab>
+                    <Tab title="Desativado" tabWidth="3" disabled>Test 4</Tab>
+                </Tabs>
+    
                 <Obs />               
             </div>
 
