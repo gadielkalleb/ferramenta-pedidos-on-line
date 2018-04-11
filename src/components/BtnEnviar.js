@@ -7,34 +7,37 @@ class BtnEnviar extends Component {
 
         this.state = {
             btnDisable: true,
-            checkboxState: false
+            checkboxState: false,
+            label: 'Clique aqui para confirma seu pedido.'
         }
+
+        this.handleChange = this.handleChange.bind(this)
     }
 
     handleChange(event){
+        
         this.setState({
             checkboxState: !this.state.checkboxState
         })
-    }
 
-    componentDidMount(){
-        if (this.state.checkboxState === true) {
+        if (this.state.checkboxState === false) {
             this.setState({
-                btnDisable: false
+                btnDisable: false,
+                label: 'Agora clique em enviar!'
             })
-        } else {
+        } else if(this.state.checkboxState === true) {
             this.setState({
-                btnDisable: true
+                btnDisable: true,
+                label: 'Clique aqui para confirma seu pedido.'
             })
         }
-        
+
     }
-        
+    
     render(){
-        
         return (
             <Row className="container">
-                <Input name='confirma' type='checkbox' value={this.event} onChange={this.handleChange} label='Clique aqui para confirma seu pedido antes de clicar no botão enviar'/>
+                <Input name='confirma' type='checkbox' value={this.event} onChange={this.handleChange} label={this.state.label}/>
                 <Col s={12} className="right-align">
                     <Button waves='light' disabled={this.state.btnDisable}>Enviar<Icon right>send</Icon></Button>
                 </Col>
