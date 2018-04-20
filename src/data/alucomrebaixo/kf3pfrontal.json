@@ -1,0 +1,72 @@
+{
+
+    "produto": "KF 3P FRONTAL",
+    "data": [{
+            "tam": "1,60m",
+            "cod": "720",
+            "FF": "CodBlindex_720FF_CodSBM_31330",
+            "PB": "CodBlindex_720PB_CodSBM_31331",
+            "BF": "CodBlindex_720BF_CodSBM_31332",
+            "DB": "CodBlindex_720DB_CodSBM_32312",
+            "BC": "CodBlindex_720BC_CodSBM_31333",
+            "PT": "CodBlindex_720PT_CodSBM_31334",
+            "BG": "CodBlindex_720BG_CodSBM_31335"
+        },
+        {
+
+            "tam": "1,80m",
+            "cod": "721",
+            "FF": "CodBlindex_721FF_CodSBM_31336",
+            "PB": "CodBlindex_721PB_CodSBM_31337",
+            "BF": "CodBlindex_721BF_CodSBM_31338",
+            "DB": "CodBlindex_721DB_CodSBM_32313",
+            "BC": "CodBlindex_721BC_CodSBM_31339",
+            "PT": "CodBlindex_721PT_CodSBM_31340",
+            "BG": "CodBlindex_721BG_CodSBM_31341"
+        }, {
+
+            "tam": "2,00m",
+            "cod": "722",
+            "FF": "CodBlindex_722FF_CodSBM_31342",
+            "PB": "CodBlindex_722PB_CodSBM_31343",
+            "BF": "CodBlindex_722BF_CodSBM_31344",
+            "DB": "CodBlindex_722DB_CodSBM_32314",
+            "BC": "CodBlindex_722BC_CodSBM_31345",
+            "PT": "CodBlindex_722PT_CodSBM_31346",
+            "BG": "CodBlindex_722BG_CodSBM_31347"
+        }, {
+
+            "tam": "2,20m",
+            "cod": "723",
+            "FF": "CodBlindex_723FF_CodSBM_31348",
+            "PB": "CodBlindex_723PB_CodSBM_31349",
+            "BF": "CodBlindex_723BF_CodSBM_31350",
+            "DB": "CodBlindex_723DB_CodSBM_32315",
+            "BC": "CodBlindex_723BC_CodSBM_31351",
+            "PT": "CodBlindex_723PT_CodSBM_31352",
+            "BG": "CodBlindex_723BG_CodSBM_31353"
+        }, {
+
+            "tam": "2,00m",
+            "cod": "736",
+            "FF": "CodBlindex_736FF_CodSBM_31354",
+            "PB": "CodBlindex_736PB_CodSBM_31355",
+            "BF": "CodBlindex_736BF_CodSBM_31356",
+            "DB": "CodBlindex_736DB_CodSBM_32316",
+            "BC": "CodBlindex_736BC_CodSBM_31357",
+            "PT": "CodBlindex_736PT_CodSBM_31358",
+            "BG": "CodBlindex_736BG_CodSBM_31359"
+        }, {
+
+            "tam": "3,00m",
+            "cod": "737",
+            "FF": "CodBlindex_737FF_CodSBM_31360",
+            "PB": "CodBlindex_737PB_CodSBM_31361",
+            "BF": "CodBlindex_737BF_CodSBM_31362",
+            "DB": "CodBlindex_737DB_CodSBM_32317",
+            "BC": "CodBlindex_737BC_CodSBM_31363",
+            "PT": "CodBlindex_737PT_CodSBM_31364",
+            "BG": "CodBlindex_737BG_CodSBM_31365"
+        }
+    ]
+}

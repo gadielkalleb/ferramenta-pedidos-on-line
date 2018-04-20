@@ -9,7 +9,6 @@ import MenuLateral from './components/MenuLateral'
 import BemVindo from './rotas/BemVindo'
 import AluminiumSemRebaixo from './rotas/AluminiumSemRebaixo'
 
-
 class App extends Component {
     render () {
         return (
